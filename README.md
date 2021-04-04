@@ -15,6 +15,6 @@ pip install -r reqs.txt
 pytest /tests
 
 # Verify the coverage
-pytest --cov /tests
+pytest --cov=src tests/
 
 ```
