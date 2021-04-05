@@ -9,7 +9,7 @@ python3.9 -m venv venv
 source venv/bin/activate
 
 # Install packages
-pip install -r requrements.txt
+pip install -r requirements.txt
 
 # Run tests
 pytest /tests
