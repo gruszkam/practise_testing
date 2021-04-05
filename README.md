@@ -9,12 +9,12 @@ python3.9 -m venv venv
 source venv/bin/activate
 
 # Install packages
-pip install -r reqs.txt
+pip install -r requrements.txt
 
 # Run tests
 pytest /tests
 
 # Verify the coverage
-pytest --cov=src tests/
+pytest --cov --cov-branch
 
 ```
