@@ -1,0 +1,14 @@
+[run]
+branch = true
+parallel = true
+source = 
+  src/
+  tests/
+
+[paths]
+source =
+  src
+
+[report]
+show_missing = true
+fail_under = 90
