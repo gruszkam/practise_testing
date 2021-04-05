@@ -1,6 +1,6 @@
 [run]
-branch = true
-parallel = true
+branch = True
+parallel = True
 source = 
   src/
   tests/
@@ -10,5 +10,5 @@ source =
   src
 
 [report]
-show_missing = true
+show_missing = True
 fail_under = 90
